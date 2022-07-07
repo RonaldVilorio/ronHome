@@ -1,13 +1,13 @@
 import React from 'react';
-import {Div} from './ProjectSection.styles'
+import {ProjectBox} from './ProjectSection.styles'
 
 const Projects = () => {
     return ( 
         <section>
-            <Div>
+            <ProjectBox>
                 <h1>Projects</h1>
 
-            </Div>
+            </ProjectBox>
         </section>
         
      );

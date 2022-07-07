@@ -1,12 +1,16 @@
 import React from 'react'
-import {Div} from './header.styles.jsx'
+import {HeaderBox} from './header.styles.jsx'
 
 const Header = () => {
     return ( 
         <header>
-            <Div>
-            <h1>Header</h1>
-            </Div>
+            <HeaderBox>
+                <h1>                
+                    <span>Developer,Runner, Problem Solver</span>
+                    <span>Ronald Vilorio</span>
+                </h1>
+            
+            </HeaderBox>
         </header>
      );
 }

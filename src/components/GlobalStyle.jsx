@@ -13,6 +13,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     font-size: 62.50%;
+   
 }
 
 body{
