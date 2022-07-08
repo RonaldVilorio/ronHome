@@ -10,3 +10,11 @@ export const HeaderBox = styled.div`
     /* border: ${props=> `1px solid ${props.theme.colors.persianGreen}`}; */
 
 `
+export const TitleName = styled.h1`
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    margin: 50% auto;
+
+` 

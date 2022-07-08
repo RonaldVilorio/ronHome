@@ -1,14 +1,14 @@
 import React from 'react'
-import {HeaderBox} from './header.styles.jsx'
+import {HeaderBox,TitleName} from './header.styles.jsx'
 
 const Header = () => {
     return ( 
         <header>
             <HeaderBox>
-                <h1>                
+                <TitleName>                
                     <span>Developer,Runner, Problem Solver</span>
                     <span>Ronald Vilorio</span>
-                </h1>
+                </TitleName>
             
             </HeaderBox>
         </header>
