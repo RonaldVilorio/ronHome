@@ -17,7 +17,8 @@ html{
 }
 
 body{
-
+    padding: 3rem;
+    font-family:'lato',sans-serif
 }
 
 

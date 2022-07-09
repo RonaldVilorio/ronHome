@@ -1,14 +1,16 @@
 import styled from "styled-components"
 import { Colors } from "../GlobalStyle"
+import ImgSrc from '../../images/headerBack.jpg'
 
 export const HeaderBox = styled.div`
     height: 100px;
-    color: ${Colors.myBlack};
+    color: ${Colors.myWhite};
     border: 3px solid black;
-    height: 100vh;
-    /* font-size:${({})}; */
-    /* border: ${props=> `1px solid ${props.theme.colors.persianGreen}`}; */
-
+    height: 85vh;
+    background-image:url(${ImgSrc});
+    background-size:cover;
+    background-position:bottom;
+    
 `
 export const TitleName = styled.h1`
     display:flex;
@@ -16,5 +18,6 @@ export const TitleName = styled.h1`
     align-items:center;
     justify-content:center;
     margin: 50% auto;
+    font-size: 4rem;
 
 ` 
