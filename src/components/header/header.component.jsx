@@ -1,5 +1,9 @@
 import React from 'react'
-import {HeaderBox,TitleName} from './header.styles.jsx'
+import {
+    HeaderBox,
+    TitleName,
+    Name,
+    GithubIcon} from './header.styles.jsx'
 
 const Header = () => {
     return ( 
@@ -7,9 +11,9 @@ const Header = () => {
             <HeaderBox>
                 <TitleName>                
                     <span>Developer, Runner, Problem Solver</span>
-                    <span>Ronald Vilorio</span>
+                    <GithubIcon/>                
+                    <Name>Ronald Vilorio</Name>
                 </TitleName>
-            
             </HeaderBox>
         </header>
      );

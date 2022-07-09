@@ -1,8 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export const Colors = {
-    myWhite:'#FFF',
-    myBlack:'#000'
+    primary_green:'#76BA99',
+    secondary_green:'#ADCF9F',
+    tertiary_green:'#CED89E',
+    beige:'#FFDCAE'
 
 }
 
