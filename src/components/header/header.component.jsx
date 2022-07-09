@@ -3,16 +3,24 @@ import {
     HeaderBox,
     TitleName,
     Name,
-    GithubIcon} from './header.styles.jsx'
+    IconHolder,
+    GithubIcon,
+    LinkedInIcon,
+    CodeWarIcon
+} from './header.styles.jsx'
 
 const Header = () => {
     return ( 
         <header>
             <HeaderBox>
                 <TitleName>                
-                    <span>Developer, Runner, Problem Solver</span>
-                    <GithubIcon/>                
+                    <span>Developer, Runner, Problem Solver</span>                              
                     <Name>Ronald Vilorio</Name>
+                    <IconHolder>
+                        <a href="https://github.com/RonaldVilorio"><GithubIcon/></a>
+                        <a href="https://www.linkedin.com/in/ronald-vilorio/"><LinkedInIcon/></a>
+                        <a href="https://www.codewars.com/users/RonaldVilorio"><CodeWarIcon/></a>                                                 
+                    </IconHolder>
                 </TitleName>
             </HeaderBox>
         </header>

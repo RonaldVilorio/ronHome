@@ -2,9 +2,9 @@ import styled from "styled-components"
 import { Colors } from "../GlobalStyle"
 import ImgSrc from '../../images/headerBack.jpg'
 import {LogoGithub} from '@styled-icons/ionicons-solid/LogoGithub'
-
+import {LogoLinkedin}from '@styled-icons/ionicons-solid/LogoLinkedin'
+import { Code } from "@styled-icons/ionicons-solid"
 export const HeaderBox = styled.div`
-    height: 100px;
     color: ${Colors.primary_green};
     border: 3px solid black;
     height: 85vh;
@@ -22,17 +22,33 @@ export const TitleName = styled.h1`
     font-size: 4rem;
     font-weight:700;
     letter-spacing:.6rem;
-    position:relative;
      
 ` 
 export const Name = styled.span`
-    position:absolute;
-    margin-top:15rem;
+    margin-top:2rem;
 
 `
-export const GithubIcon = styled(LogoGithub)` 
-    color:${Colors.primary_green};
-    height: 4rem;
+export const IconHolder = styled.div`
+    a{
+        color:inherit;
+        text-decoration:none;        
+    }
     display:flex;
-    justify-content:center;
+    margin-top:.5rem;
+    align-content:space-between;
+`
+export const GithubIcon = styled(LogoGithub)` 
+    height: 4rem;
+    margin-right:.7rem;
+   
+`
+export const LinkedInIcon = styled(LogoLinkedin)` 
+    height: 4rem;
+    margin-right:.7rem;
+
+`
+export const CodeWarIcon = styled(Code)` 
+    height:4rem;
+
+
 `
