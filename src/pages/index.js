@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <>
       <GlobalStyles/>
-      <Layout pageTitle = 'Home Page'>
+      <Layout>
         <Header/>
         <ProjectSection/>
       </Layout>
