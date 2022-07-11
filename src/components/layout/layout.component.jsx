@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Navigation } from './layout.styles'
+import { Navigation,HomeIcon } from './layout.styles'
 
 const Layout = ({ pageTitle, children }) => {
     
@@ -10,7 +10,7 @@ const Layout = ({ pageTitle, children }) => {
             <main>
                 <Navigation>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/"><HomeIcon/></Link></li>
                         <li><Link to="/about">About</Link></li>
                     </ul>
                 </Navigation>
