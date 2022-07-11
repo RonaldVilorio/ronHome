@@ -7,17 +7,19 @@ import {
     GithubIcon,
     LinkedInIcon,
     CodeWarIcon,
-    // ThinkImg
+    ThinkImg,
+    DevelopImg,
+    RunImg
 } from './header.styles.jsx'
-import ThinkImg from '../../assets/think.svg'
+
 const Header = () => {
     return ( 
         <header>
             <HeaderBox>
-                {/* <ThinkImg/>               */}
-                {/* <DevelopImg/>
+                <ThinkImg/>              
+                <DevelopImg/> 
                 <RunImg/>
-                <ThinkImg/> */}
+                
                 <TitleName>                
                     <span>Developer, Runner, Problem Solver</span>                              
                     <Name>Ronald Vilorio</Name>

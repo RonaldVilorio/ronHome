@@ -4,8 +4,9 @@ import { Colors } from "../GlobalStyle"
 import {LogoGithub} from '@styled-icons/ionicons-solid/LogoGithub'
 import {LogoLinkedin}from '@styled-icons/ionicons-solid/LogoLinkedin'
 import { Code } from '@styled-icons/ionicons-solid'
-// import ThinkImgSrc from '../../assets/thinkImg.svg'
-
+import ThinkImgSrc from '../../assets/think.svg'
+import RunImgSrc from '../../assets/run.svg'
+import DevelopImgSrc from '../../assets/develop.svg'
 export const HeaderBox = styled.div`
     box-sizing:inherit;
     color:#3D0C02;
@@ -55,7 +56,18 @@ export const LinkedInIcon = styled(LogoLinkedin)`
 export const CodeWarIcon = styled(Code)` 
     height:4rem;
 `
-// export const ThinkImg = styled(ThinkImgSrc)`
-//     height:4rem;
+export const ThinkImg = styled(ThinkImgSrc)`
+    height:4rem;
+
+`
+export const RunImg = styled(RunImgSrc)` 
+    height:4rem;
+`
+export const DevelopImg = styled(DevelopImgSrc)`
+    height:4rem;
+
+`
+// export const Waka = styled(Waka)` 
+
 
 // `
