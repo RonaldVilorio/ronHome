@@ -10,11 +10,11 @@ import DevelopImgSrc from '../../assets/develop.svg'
 
 export const HeaderBox = styled.div`
     box-sizing:inherit;
-    color:#3D0C02;
+    color:${Colors.black_bean};
     border: .1rem solid ${Colors.secondary_green};
     border-radius:.5rem;
     height: 85vh;
-    background-image:linear-gradient(to right bottom, ${Colors.primary_green}, ${Colors.secondary_green});
+    background-image:linear-gradient(to bottom, ${Colors.primary_green}, ${Colors.secondary_green});
     margin: 5rem auto 0 auto;
     position:relative;
     

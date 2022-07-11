@@ -4,7 +4,8 @@ export const Colors = {
     primary_green:'#76BA99',
     secondary_green:'#ADCF9F',
     tertiary_green:'#CED89E',
-    beige:'#FFDCAE'
+    beige:'#FFDCAE',
+    black_bean:'#3D0C02'
 
 }
 
@@ -18,7 +19,7 @@ html{
 }
 
 body{
-    padding: 3rem;
+    padding: 4rem;
     font-family:'lato',sans-serif
 }
 
