@@ -22,9 +22,9 @@ const Header = () => {
                     <span>Developer, Runner, Problem Solver</span>                              
                     <Name>Ronald Vilorio</Name>
                     <IconHolder>
-                        <a href="https://github.com/RonaldVilorio" target="_blank"><GithubIcon/></a>
-                        <a href="https://www.linkedin.com/in/ronald-vilorio/" target="_blank"><LinkedInIcon/></a>
-                        <a href="https://www.codewars.com/users/RonaldVilorio" target="_blank"><CodeWarIcon/></a>                                                 
+                        <a href="https://github.com/RonaldVilorio"><GithubIcon/></a>
+                        <a href="https://www.linkedin.com/in/ronald-vilorio/"><LinkedInIcon/></a>
+                        <a href="https://www.codewars.com/users/RonaldVilorio"><CodeWarIcon/></a>                                                 
                     </IconHolder>
                 </TitleName>
             </HeaderBox>
