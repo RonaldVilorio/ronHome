@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Colors } from "../GlobalStyle"
-import ImgSrc from '../../images/headerBack.jpg'
+
 import {LogoGithub} from '@styled-icons/ionicons-solid/LogoGithub'
 import {LogoLinkedin}from '@styled-icons/ionicons-solid/LogoLinkedin'
 import { Code } from '@styled-icons/ionicons-solid'
@@ -15,7 +15,6 @@ export const HeaderBox = styled.div`
     border-radius:.5rem;
     height: 85vh;
     background-image:linear-gradient(to right bottom, ${Colors.primary_green}, ${Colors.secondary_green});
-    /* background-image:url(${ImgSrc}); */
     /* background-size:cover; */
     /* background-position:bottom; */
     margin: 5rem auto 0 auto;

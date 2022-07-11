@@ -14,7 +14,7 @@ const Header = () => {
     return ( 
         <header>
             <HeaderBox>
-                <ThinkImg/>              
+                {/* <ThinkImg/>               */}
                 {/* <DevelopImg/>
                 <RunImg/>
                 <ThinkImg/> */}
