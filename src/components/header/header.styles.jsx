@@ -1,24 +1,22 @@
 import styled from "styled-components"
 import { Colors } from "../GlobalStyle"
-
 import {LogoGithub} from '@styled-icons/ionicons-solid/LogoGithub'
 import {LogoLinkedin}from '@styled-icons/ionicons-solid/LogoLinkedin'
 import { Code } from '@styled-icons/ionicons-solid'
+import { Hourglass } from "@styled-icons/ionicons-solid"
 import ThinkImgSrc from '../../assets/think.svg'
 import RunImgSrc from '../../assets/run.svg'
 import DevelopImgSrc from '../../assets/develop.svg'
+
 export const HeaderBox = styled.div`
     box-sizing:inherit;
     color:#3D0C02;
-    /* #3D0C02
-    #0C0404 */
     border: .1rem solid ${Colors.secondary_green};
     border-radius:.5rem;
     height: 85vh;
     background-image:linear-gradient(to right bottom, ${Colors.primary_green}, ${Colors.secondary_green});
-    /* background-size:cover; */
-    /* background-position:bottom; */
     margin: 5rem auto 0 auto;
+    position:relative;
     
 `
 export const TitleName = styled.h1`
@@ -55,16 +53,31 @@ export const LinkedInIcon = styled(LogoLinkedin)`
 `
 export const CodeWarIcon = styled(Code)` 
     height:4rem;
+    margin-right:.7rem;
+`
+export const WakaTimeIcon = styled(Hourglass)`
+    height:4rem;
 `
 export const ThinkImg = styled(ThinkImgSrc)`
-    height:4rem;
+    position:absolute;
+    width:30rem;
+    top:80rem;
 
 `
-export const RunImg = styled(RunImgSrc)` 
-    height:4rem;
+export const RunImg = styled(RunImgSrc)`
+    position:absolute;    
+    width:30rem;
+    top:15rem;
+    left:50%;
+    transform:translateX(-15rem);
+    
 `
 export const DevelopImg = styled(DevelopImgSrc)`
-    height:4rem;
+    position:absolute;
+    width:30rem;
+    left:100%;
+    top:80rem;
+    transform:translateX(-40rem);
 
 `
 // export const Waka = styled(Waka)` 
