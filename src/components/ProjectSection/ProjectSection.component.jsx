@@ -4,9 +4,13 @@ import {
     Title,
     ProjectBox,
     ProjectGrid,
-    Description
+    DescriptionRight,
+    DescriptionLeft
 } from './ProjectSection.styles'
 import ClothingYImgSrc from '../../images/clothing_y.png'
+import PasswordCheckerSrc from '../../images/passwordChecker.jpg'
+import SearchMoviesSrc from '../../images/searchMovies.png'
+
 const projects = {
 
     proj1:{
@@ -14,6 +18,17 @@ const projects = {
         imgUrl:<ClothingYImgSrc/>,
         linkUrl: 'this'
     },
+    proj2:{
+        title:"PasswordChecker",
+        imgUrl:<PasswordCheckerSrc/>,
+        linkUrl: 'this'
+    },
+    proj3:{
+        title:"searchMovies",
+        imgUrl:<SearchMoviesSrc/>,
+        linkUrl: 'this'
+
+    }
    
 }
 
@@ -26,15 +41,18 @@ const Projects = () => {
                 {/* Z pattern proj-desc top to bottom */}
                 <ProjectGrid>
                     <Card title={projects.proj1.title} imgUrl={projects.proj1.imgUrl} linkUrl={projects.proj1.linkUrl}/>
-                    <Description>
+                    <DescriptionRight>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus voluptatibus blanditiis. Totam, provident! Quo atque, sit maxime qui sapiente mollitia aut. Cumque animi error exercitationem tempora pariatur accusantium nesciunt?
-                    </Description>
-                    {/* <h1>s</h1> */}
-                    <h1>s</h1>
-                    <h1>s</h1> 
-                    <h1>s</h1>
-                    <h1>s</h1>
-                    <h1>s</h1>               
+                    </DescriptionRight>
+                    <DescriptionLeft>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus voluptatibus blanditiis. Totam, provident! Quo atque, sit maxime qui sapiente mollitia aut. Cumque animi error exercitationem tempora pariatur accusantium nesciunt?
+                    </DescriptionLeft>
+                    <Card title={projects.proj2.title} imgUrl={projects.proj2.imgUrl} linkUrl={projects.proj2.linkUrl}/>
+                    <Card title={projects.proj3.title} imgUrl={projects.proj3.imgUrl} linkUrl={projects.proj3.linkUrl}/>
+                    <DescriptionRight>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ducimus voluptatibus blanditiis. Totam, provident! Quo atque, sit maxime qui sapiente mollitia aut. Cumque animi error exercitationem tempora pariatur accusantium nesciunt?
+                    </DescriptionRight>
+                                 
                 </ProjectGrid>
                 
 

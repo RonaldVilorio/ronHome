@@ -3,7 +3,6 @@ import { CardContainer } from "./Card.styles";
 
 
 const Card = ({title,imgUrl,linkUrl}) => {
-    console.log(imgUrl.type)
     return ( 
         <>
             <CardContainer>

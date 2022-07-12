@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import ClothingYImgSrc from '../../images/clothing_y.png'
 import { Colors } from "../GlobalStyle";
 
 export const ProjectBox = styled.div`
-    /* border:2px solid black; */
     padding:4rem;
     height: auto;
     margin-top: -8vh;
@@ -24,12 +22,19 @@ export const ProjectGrid = styled.div`
     grid-template-columns:1fr 1fr;
     grid-template-rows:1fr 1fr;
 `
-export const Description = styled.p`
+export const DescriptionRight = styled.p`
     display:flex;
     font-size:2.5rem;    
     align-items:center;
     margin-left:10rem;
-    margin-right:auto;
+    letter-spacing:.1rem;
+
+`
+export const DescriptionLeft = styled.p`
+    display:flex;
+    font-size:2.5rem;    
+    align-items:center;
+    margin-right:10rem;
     letter-spacing:.1rem;
 
 `

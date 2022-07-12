@@ -12,10 +12,8 @@ export const CardContainer = styled.div`
     text-transform:uppercase;
 
     img{
-        background: linear-gradient(to right,${Colors.primary_green}, ${Colors.secondary_green});
-        max-width:100%;
-        max-height:100%;
-                
+        height:60rem;
+        width:70rem;                
     }
 
 `
