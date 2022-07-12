@@ -33,7 +33,7 @@ export const Navigation = styled.nav`
 `
 export const HomeIcon = styled(Home)`
     color:inherit;
-    height:3rem;
+    height:6rem;
 
 
 `

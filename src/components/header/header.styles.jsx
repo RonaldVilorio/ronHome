@@ -11,20 +11,22 @@ import DevelopImgSrc from '../../assets/develop.svg'
 export const HeaderBox = styled.div`
     box-sizing:inherit;
     color:${Colors.black_bean};
-    border: .1rem solid ${Colors.secondary_green};
+    /* border: .1rem solid ${Colors.secondary_green}; */
     border-radius:.5rem;
     height: 85vh;
     background-image:linear-gradient(to bottom, ${Colors.primary_green}, ${Colors.secondary_green});
     margin: 5rem auto 0 auto;
     position:relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    
     
 `
 export const TitleName = styled.h1`
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content:center;
-    margin: 50% auto;
+    transform:translateY(60rem);
     font-size: 4rem;
     font-weight:700;
     letter-spacing:.6rem;
@@ -76,7 +78,7 @@ export const DevelopImg = styled(DevelopImgSrc)`
     position:absolute;
     width:30rem;
     left:100%;
-    top:80rem;
+    top:60rem;
     transform:translateX(-40rem);
 
 `
