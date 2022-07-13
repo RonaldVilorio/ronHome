@@ -3,11 +3,12 @@ import { CardContainer } from "./Card.styles";
 
 
 const Card = ({title,imgUrl,linkUrl}) => {
+    console.log(linkUrl)
     return ( 
         <>
             <CardContainer>
                 <h1>{title}</h1>
-                <img src={imgUrl.type} alt={title} />            
+                <a href={linkUrl}><img src={imgUrl.type} alt={title} /></a>                
             </CardContainer>
         </> 
     );

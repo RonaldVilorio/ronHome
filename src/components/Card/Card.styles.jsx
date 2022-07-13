@@ -10,10 +10,10 @@ export const CardContainer = styled.div`
     font-size:2rem;
     letter-spacing:.5rem;
     text-transform:uppercase;
+    
 
-    img{
-        height:60rem;
-        width:70rem;                
+    img{        
+        max-width:100%;                        
     }
 
 `
