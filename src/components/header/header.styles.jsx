@@ -9,12 +9,9 @@ import RunImgSrc from '../../assets/run.svg'
 import DevelopImgSrc from '../../assets/develop.svg'
 
 export const HeaderBox = styled.div`
-    box-sizing:inherit;
     color:${Colors.black_bean};
-    border-radius:.5rem;
     height: 85vh;
     background-image:linear-gradient(to bottom, ${Colors.primary_green}, ${Colors.secondary_green});
-    margin: 5rem auto 0 auto;
     position:relative;
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     
