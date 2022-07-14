@@ -33,7 +33,7 @@ export const DescriptionRight = styled.p`
 export const DescriptionLeft = styled.p`
     display:flex;
     font-size:2.5rem;    
-    align-items:center;
+    align-items:center;    
     margin-right:10rem;
     letter-spacing:.1rem;
 
