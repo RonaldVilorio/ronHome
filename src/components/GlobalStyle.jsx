@@ -19,7 +19,7 @@ html{
 
 body{
     margin: 0;
-    padding: 4rem;
+    padding: 5rem;
     font-family:'lato',sans-serif
 }
 

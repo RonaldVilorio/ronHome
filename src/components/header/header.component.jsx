@@ -22,7 +22,7 @@ const Header = () => {
                 <RunImg/> 
 
                 <TitleName>                
-                    <span>Developer, Runner, Problem Solver</span>                              
+                    <span>Developer, Problem Solver, Runner </span>                              
                     <Name>Ronald Vilorio</Name>
                     <IconHolder>
                         <a href="https://github.com/RonaldVilorio"><GithubIcon/></a>
