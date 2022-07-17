@@ -1,6 +1,6 @@
 import * as React from "react"
-import Layout from '../components/Layout/Layout.component'
-import Header from "../components/Header/Header.component"
+import Layout from '../components/layout/layout.component'
+import Header from "../components/header/header.component"
 import ProjectSection from "../components/ProjectSection/ProjectSection.component";
 import Footer from "../components/Footer/Footer.component";
 import { GlobalStyles } from "../components/GlobalStyle";

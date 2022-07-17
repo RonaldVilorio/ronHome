@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Navigation,HomeIcon } from './Layout.styles.jsx'
+import { Navigation,HomeIcon } from './layout.styles.jsx'
 
 const Layout = ({ pageTitle, children }) => {
     
