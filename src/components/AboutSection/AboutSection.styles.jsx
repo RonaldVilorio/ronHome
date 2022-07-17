@@ -6,7 +6,7 @@ export const AboutSectionBox = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    height:50vh;
+    height:auto;
     background-color:${Colors.tertiary_green};
     font-size:2.5rem;
     padding:5rem;

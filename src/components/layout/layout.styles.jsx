@@ -18,7 +18,7 @@ export const Navigation = styled.nav`
         li{
             margin-left:3rem;
             display:flex;
-            
+            padding-bottom:.6rem;
             
             a{
                 text-decoration:none;

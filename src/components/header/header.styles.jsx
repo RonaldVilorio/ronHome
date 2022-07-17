@@ -66,14 +66,13 @@ export const RunImg = styled(RunImgSrc)`
     width:20rem;
     top:15rem;
     left:50%;
-    transform:translateX(-15rem);
+    transform:translateX(-25rem);
     
 `
 export const DevelopImg = styled(DevelopImgSrc)`
     position:absolute;
     width:20rem;
-    left:100%;
-    top:50rem;
-    transform:translateX(-40rem);
+    left:60%;
+    top:12rem;
 
 `
