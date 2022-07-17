@@ -12,12 +12,10 @@ export const FooterBox = styled.div`
     
     
     p{
-        /* display:inline-block; */
         margin-top:0;
         margin-left:1.5rem;
         align-self:flex-start;
         font-size:1.6rem;
-
     }
     
 `

@@ -13,12 +13,7 @@ const Footer = () => {
                 </EndingInfo>
                 <p>&#169; 2022 Ronald Vilorio</p>
             </FooterBox>
-        {/* Contact me */}
-        {/* copyright */}
-        {/* site source code */}
-
-
-    
+        
         </> 
     );
 }
