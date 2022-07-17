@@ -11,7 +11,7 @@ import {
     ThinkImg,
     DevelopImg,
     RunImg
-} from './Header.styles.jsx'
+} from './header.styles.jsx'
 
 const Header = () => {
     return ( 
