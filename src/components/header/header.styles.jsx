@@ -10,10 +10,10 @@ import DevelopImgSrc from '../../assets/develop.svg'
 
 export const HeaderBox = styled.div`
     color:${Colors.black_bean};
-    height: 85vh;
+    height: 100vh;
     background-image:linear-gradient(to bottom, ${Colors.primary_green}, ${Colors.secondary_green});
     position:relative;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
     
 `
 export const TitleName = styled.h1`

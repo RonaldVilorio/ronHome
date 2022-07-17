@@ -4,7 +4,7 @@ import { Colors } from "../GlobalStyle";
 export const ProjectBox = styled.div`
     padding:4rem;
     height: auto;
-    margin-top: -5vh;
+    margin-top: -10vh;
     background-image:linear-gradient(to bottom, ${Colors.beige}, ${Colors.secondary_green});
 `
 export const Title = styled.h1` 
