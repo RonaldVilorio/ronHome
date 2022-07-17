@@ -41,29 +41,29 @@ export const IconHolder = styled.div`
     align-content:space-between;
 `
 export const GithubIcon = styled(LogoGithub)` 
-    height: 4rem;
+    height: 2.5rem;
     margin-right:.7rem;
 `
 export const LinkedInIcon = styled(LogoLinkedin)` 
-    height: 4rem;
+    height: 2.5rem;
     margin-right:.7rem;
 `
 export const CodeWarIcon = styled(Code)` 
-    height:4rem;
+    height:2.5rem;
     margin-right:.7rem;
 `
 export const WakaTimeIcon = styled(Hourglass)`
-    height:4rem;
+    height:2.5rem;
 `
 export const ThinkImg = styled(ThinkImgSrc)`
     position:absolute;
-    width:30rem;
-    top:80rem;
+    width:20rem;
+    top:60rem;
 
 `
 export const RunImg = styled(RunImgSrc)`
     position:absolute;    
-    width:30rem;
+    width:20rem;
     top:15rem;
     left:50%;
     transform:translateX(-15rem);
@@ -71,9 +71,9 @@ export const RunImg = styled(RunImgSrc)`
 `
 export const DevelopImg = styled(DevelopImgSrc)`
     position:absolute;
-    width:30rem;
+    width:20rem;
     left:100%;
-    top:60rem;
+    top:50rem;
     transform:translateX(-40rem);
 
 `
