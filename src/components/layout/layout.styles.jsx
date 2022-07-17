@@ -29,7 +29,7 @@ export const Navigation = styled.nav`
         & > *:last-child{
             margin-right:3rem;
             margin-left:auto;
-            font-size:3rem;            
+            font-size:2rem;            
             letter-spacing:.1rem;
             text-transform:uppercase;
         }               
@@ -39,7 +39,7 @@ export const Navigation = styled.nav`
 `
 export const HomeIcon = styled(Home)`
     color:inherit;
-    height:6rem;
+    height:3rem;
 
 
 `

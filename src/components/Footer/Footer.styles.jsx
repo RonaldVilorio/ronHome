@@ -33,7 +33,7 @@ export const EndingInfo = styled.div`
         align-items:center;
         display:flex;
         flex-direction:column;
-        font-size:2.2rem;
+        font-size:2rem;
         line-height:3rem;
         
         a{

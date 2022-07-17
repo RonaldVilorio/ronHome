@@ -44,13 +44,11 @@ const Projects = () => {
                     <DescriptionRight>
                         Clothing_Y is an e-commerce web application that utilizes react and styled component for the 
                         frontend of development and uses firebase for it's backend.
-                        Firebase made it easier to implement user authentication, as well as being the source for user data storage. 
-                        We sell clothes, shoes, just don't try to buy anything we're temporaily closed. 
+                        
                     </DescriptionRight>
                     <DescriptionLeft>
-                        PasswordChecker is a python app used to check if your password has been breached. 
-                        It utilizes HaveIbeenPwned API to connect with the database containing the breached passwords. 
-                        Don't stop at one password, you can check as many in your terminal as you want! 
+                        PasswordChecker is a python app used to check if your passwords have been breached. 
+                        
                     </DescriptionLeft>
                     <Card title={projects.proj2.title} imgUrl={projects.proj2.imgUrl} linkUrl={projects.proj2.linkUrl}/>
                     {/* <Card title={projects.proj3.title} imgUrl={projects.proj3.imgUrl} linkUrl={projects.proj3.linkUrl}/>
