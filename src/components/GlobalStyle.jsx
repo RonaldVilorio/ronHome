@@ -11,15 +11,14 @@ export const Colors = {
 
 export const GlobalStyles = createGlobalStyle`
 
-html{
-    
+html{    
     box-sizing: border-box;        
     font-size: 62.50%;   
 }
 
 body{
     margin: 0;
-    padding: 5rem;
+    padding: 3rem;
     font-family:'lato',sans-serif
 }
 

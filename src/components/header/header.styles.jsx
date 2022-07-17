@@ -21,7 +21,7 @@ export const TitleName = styled.h1`
     flex-direction: column;
     align-items:center;
     transform:translateY(60rem);
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight:700;
     letter-spacing:.6rem;
     text-transform:uppercase;

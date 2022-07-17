@@ -10,7 +10,7 @@ export const ProjectBox = styled.div`
 export const Title = styled.h1` 
     display:flex;
     justify-content:center;
-    font-size:4rem;
+    font-size:3rem;
     margin: 15rem auto;    
     font-weight:700;
     letter-spacing:.6rem;
@@ -24,7 +24,7 @@ export const ProjectGrid = styled.div`
 `
 export const DescriptionRight = styled.p`
     display:flex;
-    font-size:2.5rem;    
+    font-size:2rem;    
     align-items:center;
     margin-left:10rem;
     letter-spacing:.1rem;
@@ -32,7 +32,7 @@ export const DescriptionRight = styled.p`
 `
 export const DescriptionLeft = styled.p`
     display:flex;
-    font-size:2.5rem;    
+    font-size:2rem;    
     align-items:center;    
     margin-right:10rem;
     letter-spacing:.1rem;

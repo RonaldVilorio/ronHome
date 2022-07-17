@@ -3,16 +3,23 @@ import styled from "styled-components";
 export const CardContainer = styled.div`
     display:flex;
     flex-direction:column;
-    align-items:center;   
-    background-size:cover;
-    background-blend-mode:screen;
-    font-size:2rem;
-    letter-spacing:.5rem;
-    text-transform:uppercase;
+    align-items:center;
     
+    h1{
+        font-size:2rem;
+        letter-spacing:.5rem;
+        text-transform:uppercase;
+        transform:translateX(-3rem);
 
-    img{        
-        max-width:100%;                        
+    }
+    
+    a{
+        text-decoration:none;
+        max-width:80%;
+    }
+    img{     
+        align-self:flex-end;
+        max-width:80%;                        
     }
 
 `
