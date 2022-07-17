@@ -21,8 +21,8 @@ const AboutSection = () => {
                     on the fundamentals of Javascript. Along the way I also got my AWS Cloud Practitioner Certification.
                     I'm ready for my next challenge, contact me so we can work together! 
                 </p>
-                <a href="geeksforgeeks.png" download="RonaldVilorioResume">
-                    <Button type="button">Download Resume</Button>
+                <a href="https://www.sendbig.com/view-files/?Id=05cccbad-c27f-193d-b923-f79ba3d563e3" download="RonaldVilorioResume">
+                    <Button type="button">View Resume</Button>
                 </a>
 
             </AboutSectionBox>        
